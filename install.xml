@@ -19,7 +19,7 @@
 		<installation>
 			<level>easy</level>
 			<time>300</time>
-			<target-version>3.0.9</target-version>
+			<target-version>3.0.12</target-version>
 		</installation>
 
 		<history>
@@ -145,6 +145,13 @@
 				<rev-version>1.0.12</rev-version>
 				<changelog lang="en">
 					<change>Remove references to Lithium Studios</change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2014-11-13</date>
+				<rev-version>1.0.13</rev-version>
+				<changelog lang="en">
+					<change>Minor code modification for phpBB 3.0.12 compliance</change>
 				</changelog>
 			</entry>
 		</history>
