@@ -109,7 +109,7 @@ class acp_ads
 		$ad_groups = request_var('ad_groups', array(0), true);
 		$ad_forums = request_var('ad_forums', array(0), true);
 		$ad_positions = request_var('ad_positions', array(0), true);
-		$position_name = request_var('position_name', '');
+		$position_name = utf8_normalize_nfc(request_var('position_name', '', true));
 		$ad_owner = utf8_normalize_nfc(request_var('ad_owner', '', true));
 		$ad_owner_id = 0;
 
